@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="height: 120px; color:red;" id="container"></div>
+</body>
+<script >
+var xmlHttp;
+if (window.XMLHttpRequest) {
+    xmlHttp = new XMLHttpRequest();
+} else {
+    xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+}
+// console.log(xmlHttp);
+xmlHttp.open("GET", "/Second/Content", true);
+xmlHttp.send();
+xmlHttp.onreadystatechange = function() {
+    if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+    	 var text = xmlHttp.responseText;
+    	 console.log(text);
+         var json = JSON.parse(text);
+         console.log(json);
+         var html = "";
+         for(var i = 0; i < json.length; i++){
+        	 var news = json[i];
+        	 html += "<h1>" + news.title + "</h1>";
+        	 html += "<h2>" + news.content + "</h2>";
+        	 html += "<br>";
+         }
+         document.getElementById("container").innerHTML = html;
+    }
+}
+
+</script>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+    	
+    	$.ajax({
+    		"url": "/Second/channel",
+    		"data": {"level": 1},
+    		type: "get",
+    		"dataType": "json",
+    		"success": function(json){
+    			//console.log(json);
+    			for(var i = 0;  i < json.length; i++){
+    				var ch = json[i];
+    				$("#lv1").append("<option value="+ ch.code +">"+ ch.name+"</option>")
+    			}
+    		}    	
+    	})
+    });
+    $(function(){
+    	$("#lv1").on("change", function(){
+    		 var parent = $(this).val();
+    	// console.log(parent);
+    		 $.ajax({
+    			 "url": "/Second/channel",
+    			 data: {"level": 2, "parent": parent},
+    			 type: 'get',
+    			 dataType: "json",
+    			 success: function(json){
+    				 $('#lv2>option').remove();
+    				 for(var i = 0; i < json.length; i++){
+    				    var ch = json[i];
+    				    $('#lv2').append("<option>" + ch.name+ "</option>");
+    				 }
+    			 }
+    		 })
+    	})
+    });
+    </script>
+</head>
+
+<body >
+    <select name="" id="lv1" style="width: 250px; height: 30px; color: red">
+        <option selected="selected">请选择</option>
+    </select>
+    <select name="" id="lv2" style="width: 250px; height: 30px; color: green; font-size:22px">
+    </select>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script >
+//返回的数据（String)必须符合json的格式，否则会出奇奇怪怪的问题
+ $(function(){
+	 $.ajax({
+		   "url": "/Second/Content",
+	       "type": "get",
+	       "data": "t=tiobe",
+	        "dataType": "json",
+	        success:  function(json){
+	    	console.log(json);
+	    	  var html = "";
+	          for(var i = 0; i < json.length; i++){
+	         	 var news = json[i];
+	         	 html += "<h1 style='color:red'>" + news.title + "</h1>";
+	         	 html += "<h2>" + news.content + "</h2>";
+	         	 html += "<br>";
+	          }
+	             $("#divContent").html(html);
+	           
+	      },
+	      "error": function(xmlHttp, errorText) {
+	    	  console.log(xmlHttp);
+	    	  console.log("出错了dsafsdfa");	
+	    	  console.log(xmlHttp.status);
+	    	  console.log(xmlHttp.readyState);
+		}
+	 })
+ });
+</script>
+</head>
+<body>
+    <div id="divContent"></div>
+</body>
+
+</html>
