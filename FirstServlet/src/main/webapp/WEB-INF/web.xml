@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>FirstServlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <filter>
+  <filter-name>CharacterEncodingFilter</filter-name>
+  <!-- 包名一定要写对，不然会找不到资源 -->
+  <filter-class>com.imooc.servlet.CharacterEncodingFilter</filter-class>
+  <init-param>
+   <param-name>encoding</param-name>
+   <param-value>GBK</param-value>
+  </init-param>
+  <init-param>
+   <param-name>key</param-name>
+   <param-value>value</param-value>
+   </init-param>
+  </filter>
+  <filter-mapping>
+  <filter-name>CharacterEncodingFilter</filter-name>
+  <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <error-page>
+   <error-code>404</error-code>
+   <location>/error/404.html</location>
+  </error-page>
+  <servlet>
+    <servlet-name>first</servlet-name>
+    <servlet-class>com.imooc.servlet.FirstServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>first</servlet-name>
+    <url-pattern>/a</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>first1</servlet-name>
+    <servlet-class>com.imooc.servlet.SampleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>first1</servlet-name>
+    <url-pattern>/sample</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>first2</servlet-name>
+    <servlet-class>com.imooc.servlet.RequestMethodServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>first2</servlet-name>
+    <url-pattern>/request_method</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Pattern</display-name>
+    <servlet-name>Pattern</servlet-name>
+    <servlet-class>com.imooc.servlet.pattern.Pattern</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Pattern</servlet-name>
+    <url-pattern>/pattern/*</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+   <param-name>copyright</param-name>
+   <param-value>2018年慕课网的梦工厂</param-value>
+  </context-param>
+  
+</web-app>
