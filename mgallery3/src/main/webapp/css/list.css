@@ -1,0 +1,113 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    overflow: hidden;
+    width:1200px;
+    margin:0 auto;
+}
+
+.container .show {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.container ul {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.container ul li {
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0px 10px;
+    background-color: #21a3ab;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 60%;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content table {
+    width: 1000px;
+    margin-top: 25px;
+}
+
+.content table thead {
+    background-color: #eeeeee;
+}
+
+.content table thead tr {
+    width: 150px;
+}
+
+.content table thead tr th {
+    height: 45px;
+    border-right: 1px solid rgb(189, 156, 156);
+    text-align: center;
+}
+
+.content table tr td {
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    border-right: 1px solid rgb(189, 156, 156);
+    border-bottom: 1px solid rgb(189, 156, 156);
+}
+
+.content table tr td a {
+    text-decoration: none;
+    color: #13a4ac;
+}
+.content table tr td a:hover{
+	color:red;
+}
+.content .fenye {
+    overflow: hidden;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.content .fenye a {
+    list-style: none;
+    /* display: block; */
+    height: 40px;
+    text-decoration: none;
+    width: 44px;
+    line-height: 40px;
+    float: left;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    text-align: center;
+    color: #000;
+    margin: 0px 5px;
+}
+
+.content .fenye .show {
+    background-color: #13a4ac;
+    color: #fff;
+}
+
+.content .fenye a:hover {
+    background-color: #13a4ac;
+    color: #fff;
+}
+.content table tr .descr {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}

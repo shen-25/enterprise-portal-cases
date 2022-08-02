@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -400px;
+    padding: 10px;
+    width: 600px;
+   overflow:hidden;
+}
+
+body {
+    font-size: 14px;
+    color: #666666
+}
+
+.container fieldset {
+    border: #e6e6e6 solid 1px;
+    padding-bottom: 20px;
+}
+
+.container fieldset legend {
+    font-size: 24px;
+    padding-left: 10px;
+    border: #e6e6e6;
+}
+
+.container fieldset ul li {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.container fieldset ul li span {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+input,
+select,
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    color: #666666;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container fieldset form li textarea {
+    height: 100px;
+    padding-top: 5px;
+    text-align: justify;
+    font-size: 18px;
+    color: #000;
+}
+
+.container fieldset form li .sub {
+    height: 38px;
+    width: 90px;
+    background-color: #13a4ac;
+    color: #fff;
+    margin: 0px auto;
+}
+
+.container fieldset form li .sub:hover {
+    background-color: green;
+}
+
+.error_input {
+    color: red;
+    border: 1px solid red;
+}
+
+.error_message {
+    color: red;
+
+    margin-left: 15px;
+    font-weight: 700;
+}
