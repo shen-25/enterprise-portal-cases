@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <painting id="1">
+   <pname>古典油画鉴赏1</pname>
+   <category>1</category>
+   <price>3800</price>
+     <preview>upload/1.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+    <painting id="2">
+   <pname>古典油画鉴赏2</pname>
+   <category>1</category>
+   <price>3800</price>
+     <preview>upload/1.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+    <painting id="3">
+   <pname>古典油画鉴赏3</pname>
+   <category>1</category>
+   <price>3800</price>
+     <preview>upload/1.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+    <painting id="4">
+   <pname>古典油画鉴赏4</pname>
+   <category>1</category>
+   <price>3800</price>
+     <preview>upload/1.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+    <painting id="5">
+   <pname>古典油画鉴赏5 </pname>
+   <category>1</category>
+   <price>3800</price>
+     <preview>upload/Snipaste_2022-07-29_16-12-38.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+    <painting id="6">
+   <pname>抽象油画鉴赏1</pname>
+   <category>2</category>
+   <price>3800</price>
+     <preview>upload/Snipaste_2022-07-29_16-12-38.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+   <painting id="7">
+   <pname>抽象油画鉴赏2</pname>
+   <category>2</category>
+   <price>3800</price>
+     <preview>upload/Snipaste_2022-07-29_16-12-38.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+   <painting id="8">
+   <pname>抽象油画鉴赏3</pname>
+   <category>2</category>
+   <price>3800</price>
+     <preview>upload/Snipaste_2022-07-29_16-12-38.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+   <painting id="9">
+   <pname>抽象油画鉴赏4</pname>
+   <category>2</category>
+   <price>3800</price>
+     <preview>upload/Snipaste_2022-07-29_16-12-38.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+   <painting id="10">
+   <pname>抽象油画鉴赏5</pname>
+   <category>2</category>
+   <price>3800</price>
+     <preview>upload/Snipaste_2022-07-29_16-12-38.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+   <painting id="11">
+   <pname>抽象油画鉴赏6</pname>
+   <category>2</category>
+   <price>3800</price>
+     <preview>upload/Snipaste_2022-07-29_16-12-38.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+  <painting id="12">
+   <pname>抽象油画鉴赏7</pname>
+   <category>2</category>
+   <price>3800</price>
+     <preview>upload/Snipaste_2022-07-29_16-12-38.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  
+   <painting id="13">
+   <pname>现实油画鉴赏7</pname>
+   <category>1</category>
+   <price>3800</price>
+     <preview>upload/Snipaste_2022-07-29_16-12-38.png</preview>
+     <description>《无名女郎》是俄国画家伊万·尼古拉耶维奇·克拉姆斯柯依于1883年创作的一幅现实主义肖像画，是画布油画，现收藏于莫斯科的特列恰科夫美术博物馆。 </description>
+  </painting>
+  <painting id="14"><pname>大美女</pname><category>1</category><price>15000</price><preview>upload/46d81d06-e116-4f1b-8acc-13f82a31c6af.jpg</preview><description>好看</description></painting></root>

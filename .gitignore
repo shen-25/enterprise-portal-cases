@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 imooc-oa/.idea/
 imooc-oa/out/
 imooc-oa/target/
 *.iml
 imooc-oa/src/main/webapp/resources/
+=======
+*.classpath
+*.project
+**/build/
+*/.settings/
+**/META-INF
+.git/
+Servers/
+mgallery3/src/main/webapp/WEB-INF/lib/
+>>>>>>> e22658797cbbb34ecb4301c8c46916d257332fd9
