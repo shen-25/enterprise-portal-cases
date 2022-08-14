@@ -1,0 +1,5 @@
+imooc-oa/.idea/
+imooc-oa/out/
+imooc-oa/target/
+*.iml
+imooc-oa/src/main/webapp/resources/
